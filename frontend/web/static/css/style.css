@@ -1,0 +1,346 @@
+@font-face {
+    font-family: Insignia; /* Гарнитура шрифта */
+    src: url(fonts/Insignia_LT.ttf); /* Путь к файлу со шрифтом */
+}
+html,
+body {
+    height: 100%;
+}
+.btn-grey {
+    color: #060606;
+    background-color: #f5f5f5;
+    border-color: #e6e3e3;
+}
+.ta-just{
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+}
+.p-0{
+    padding: 0;
+}
+.pt-0{
+    padding-top: 0;
+}
+.m-0{
+    margin: 0;
+}
+.mt-0{
+    margin-top: 0;
+}
+.head-menu{
+    height: 300px;
+}
+.block{
+    border: 1px solid rgba(8, 8, 8, 0.1);
+    width: 100%;
+    height: 100%;
+}
+.sp-article{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    background: #f9f9f9;
+}
+.sp-article img{
+    width: 190px;
+    float: left;
+    margin-right: 15px;
+}
+.sp-article h4{
+    padding-top: 3px;
+    margin-bottom: 5px;
+}
+.sp-article h4 small{
+    font-weight: 800;
+}
+.sp-article .description{
+    height: 150px;
+}
+.sp-article h5{
+    line-height: 1.4;
+    margin-top: 0;
+    font-size: 13px;
+}
+.sp-article h4 b, .sp-article .btn {
+    position: absolute;
+    bottom: 0px;
+}
+.sp-article .btn {
+    right: 0;
+    padding: 0 10px;
+    border-radius: 0;
+}
+.navbar{
+    background: rgba(255, 255, 255, 0.85);
+}
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0.86);
+    border-color: #080808;
+}
+.navbar-nav > li > a {
+    padding: 3px 10px;
+    font-size: 15px;
+}
+.company-info .logo, .navbar-brand{
+    width: 250px;
+    height: 70px;
+    margin: 0 !important;
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+}
+.contacts{
+    float: right;
+}
+.contact-bl{
+    text-align: right;
+    margin: 5px 0;
+}
+.contacts .phone{
+    color:#000;
+    font-family: inherit;
+    font-size: 25px;
+}
+.contacts .number {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 3px;
+    letter-spacing: .5px;
+}
+.contacts.link_popup_feedback {
+    color: #000;
+    text-decoration: none;
+}
+/*.icon li a:hover{
+    content: "";
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    background: #fbff03;
+    width: 100%;
+    height: 2px;;
+}
+/*************************
+******* Menu ******
+**************************/
+ul.category-products {
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    padding: 5px 5px 5px 0;
+}
+.category-products ul{
+    padding-left: 0;
+}
+.category-products li{
+    padding: 5px 0 5px 12px;
+    list-style-type: none;
+}
+/*.category-products li .active {
+    background: #e6e6e6;
+    padding: 2px 42px 2px 10px;
+}*/
+.category-products .panel {
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow:none;
+    margin-bottom: 0px;
+}
+
+.category-products .panel-default .panel-heading{
+    background-color: #FFFFFF;
+    border: 0 none;
+    color: #FFFFFF;
+    padding: 5px 20px;
+}
+
+.category-products .panel-default .panel-heading .panel-title a,
+.category-products li a{
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.category-products .panel-default .badge,
+.category-products li .badge{
+    background:none;
+    border-radius: 10px;
+    color: #696763;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    min-width: 10px;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.line-cat{
+    background: #f1ecec;
+}
+.line-cat img{
+    vertical-align: middle;
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+.art-img img{
+    width: 32.7%;
+}
+.art-img-left{
+    margin-top: 10px;
+}
+.art-img-left img{
+    width: 32%;
+}
+.icon-4{
+    padding: 50px 0;
+    color: white;
+}
+.icon-4 .fa{
+    font-size: 100px;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 80px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+@media(max-width:768px) {
+    .nav li > form {
+        padding: 3px;
+    }
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+div.required label:after {
+    content: " *";
+    color: #ff0000;
+}
+
+/* Article style */
+.article-item {
+    margin-bottom: 15px;
+}
+
+.article-item .article-title,
+.article-item .article-title a {
+    color: inherit;
+    margin: 0;
+}
+
+.article-item .article-meta,
+.article-item .article-meta a {
+    color: #7e7e7e;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+.article-item .article-text {
+    margin-top: 7px;
+}
+.article-text{
+    //font-size: 12px;
+}

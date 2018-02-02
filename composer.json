@@ -1,0 +1,84 @@
+{
+    "name": "beaten-sect0r/yii2-core",
+    "description": "Yii2 Core project template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "authors": [
+        {
+            "name": "Alexander Volkov",
+            "email": "beatensect0r@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-intl": "*",
+        "ext-mbstring": "*",
+        "ext-mcrypt": "*",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "vlucas/phpdotenv": "*",
+        "beaten-sect0r/yii2-db-manager": "*",
+        "samdark/sitemap": "*",
+        "developeruz/yii2-db-rbac": "*",
+        "vova07/yii2-imperavi-widget": "*",
+        "vova07/yii2-fileapi-widget": "*",
+        "creocoder/yii2-taggable": "*",
+        "2amigos/yii2-selectize-widget": "*",
+        "2amigos/yii2-disqus-widget": "*",
+        "mihaildev/yii2-elfinder": "*",
+        "trntv/yii2-datetime-widget": "*",
+        "loveorigami/yii2-notification-wrapper": "*",
+        "bower-asset/admin-lte": "*",
+        "bower-asset/html5shiv": "*",
+        "bower-asset/timecircles": "*",
+        "bower-asset/font-awesome": "*",
+        "bower-asset/open-sans-fontface": "*",
+        "bower-asset/highlightjs": "*",
+        "bower-asset/jquery-slimscroll": "*",
+        "fbalabanov/yii2-file-kit": "*",
+        "yiisoft/yii2-imagine": "~2.1.0",
+        "2amigos/yii2-switch-widget": "~1.0",
+        "unclead/yii2-multiple-input": "*",
+        "kartik-v/yii2-builder": "*",
+        "kartik-v/yii2-widget-activeform": "*",
+        "kartik-v/yii2-widget-switchinput": "*",
+        "kartik-v/yii2-widgets": "*",
+        "hiqdev/composer-config-plugin": "*",
+        "hiqdev/yii2-yandex-metrika": "^0.2.0",
+        "kartik-v/yii2-widget-select2": "@dev",
+        "dsx90/yii2-metrika": "dev-master",
+        "dsx90/yii2-launch": "dev-master",
+        "trntv/yii2-aceeditor": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../dsx90/yii2-launch"
+        }
+    ],
+    "require-dev": {
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "samdark/yii2-webshell": "*"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php -r \"file_exists('.env') || copy('.env.dist', '.env');\""
+        ]
+    },
+    "config": {
+        "process-timeout": 1800,
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "fxp-asset": {
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    }
+}
