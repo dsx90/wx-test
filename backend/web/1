@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<svg xmlns="http://www.w3.org/2000/svg">
+			<symbol id="nophoto" viewbox="0 0 100 100">
+				<path d="M10.913,99.701c-0.145,0.096-0.265,0.197-0.376,0.299h78.928c-0.111-0.102-0.231-0.203-0.376-0.299
+	c-8.523-5.654-22.617-6.966-24.912-9.261c-2.293-2.294-1.721-9.587-1.557-12.045c0.602-1.85,2.527-3.627,3.031-4.999
+	c0.33-0.898,1.641-6.146,1.721-8.358c3.033,0,2.482-2.331,3.279-4.835c0.799-2.511,1.475-2.294,1.967-6.228
+	c0.49-3.933-2.459-3.77-2.459-3.77s1.475-12.289,1.475-17.536c0-13.193-16.723-14.75-21.633-14.75c-3.36,0-9.833,0.574-16.061,7.457
+	c-2.541,0.492-5.409,2.049-5.572,7.293c-0.165,5.245,1.475,17.536,1.475,17.536s-2.95-0.163-2.458,3.77
+	c0.492,3.934,1.373,3.544,1.967,6.228c0.567,2.565,0.246,4.835,3.277,4.835c0.083,2.213,1.391,7.46,1.721,8.358
+	c0.504,1.372,2.43,3.149,3.032,4.999c0.163,2.458,0.737,9.751-1.558,12.045C33.529,92.735,19.434,94.047,10.913,99.701z">
+
+			</symbol>
+		</svg>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Публичная кадастровая карта</title>
+
+        <meta name="description" content="Публичная кадастровая карта">
+        <meta name="viewport" content="width=device-width">
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800,300&subset=latin,cyrillic-ext">
+
+        <link rel="stylesheet" href="styles/vendor.css">
+        <link rel="stylesheet" href="styles/main.css">
+
+
+        <!--//todo расскомментировать перед коммитом-->
+        <link rel="stylesheet" href="//pkk5.rosreestr.ru/jsapi/esri/css/esri.css">
+        <link rel="stylesheet" href="//pkk5.rosreestr.ru/jsapi/dijit/themes/tundra/tundra.css">
+        <script src="scripts/vendor/modernizr.js"></script>
+
+    </head>
+
+    <body class="tundra">
+        <article id="main"></article>
+        <script data-main="scripts/main" src="y/requirejs/require.js"></script>
+
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            var isLocalhost = window.location.hostname !== 'localhost';
+
+            ga('create', 'UA-15707457-7', isLocalhost ? 'none' : 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>

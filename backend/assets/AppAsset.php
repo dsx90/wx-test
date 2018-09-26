@@ -31,10 +31,10 @@ class AppAsset extends AssetBundle
         'static/js/raphael.min.js',
         'static/js/bootstrap3-wysihtml5.all.min.js',
         'static/js/bootstrap-datepicker.min.js',
-        'static/js/adminlte.min.js',
+        //'static/js/adminlte.min.js',
         'static/js/jquery-ui.min.js',
         'static/js/jquery.cookie.js',
-        //'static/js/dashboard.js'
+        'static/js/dashboard.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
